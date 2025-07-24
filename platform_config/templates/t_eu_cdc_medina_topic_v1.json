@@ -1,0 +1,9 @@
+{
+  "template_id": "t_eu_cdc_medina_topic_v1",
+  "template_type": "topic",
+  "partition_count": 1,
+  "replication_factor": 3,
+  "configs": {
+    "retention.bytes": -1
+  }
+}
