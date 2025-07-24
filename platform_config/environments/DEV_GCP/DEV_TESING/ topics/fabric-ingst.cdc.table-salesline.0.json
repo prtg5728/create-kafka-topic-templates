@@ -1,0 +1,23 @@
+{
+
+  "template_id": "t_eu_cdc_medina_topic_v1",
+
+  "topic_name": "fabric-ingst.cdc.table-salesline.0",
+
+  "schema_validation": false,
+
+  "configs": {
+
+    "retention.ms": 2592000000
+
+  },
+
+  "metadata": {
+
+    "team_name": "medina-integration",
+
+    "topic_type": "ENTERPRISE"
+
+  }
+
+}
