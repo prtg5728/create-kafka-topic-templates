@@ -1,0 +1,25 @@
+{
+    "resource_type": "topic",
+    "pattern_type": "literal",
+    "name": "fabric-ingst.cdc.table-salesline.0",
+    "acls": [
+      {
+        "principal": "sa_eu_medina-integration",
+        "host": "*",
+        "operation": "read",
+        "permission_type": "allow"
+      },
+      {
+        "principal": "sa_eu_medina-integration",
+        "host": "*",
+        "operation": "describe",
+        "permission_type": "allow"
+      },
+      {
+        "principal": "sa_eu_medina-integration",
+        "host": "*",
+        "operation": "write",
+        "permission_type": "allow"
+      }
+    ]
+  }
